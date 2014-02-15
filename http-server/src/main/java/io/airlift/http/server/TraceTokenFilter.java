@@ -28,7 +28,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-class TraceTokenFilter
+public class TraceTokenFilter
         implements Filter
 {
     private final TraceTokenManager traceTokenManager;

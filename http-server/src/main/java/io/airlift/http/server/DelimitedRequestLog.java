@@ -32,7 +32,7 @@ import java.io.IOException;
 
 import static io.airlift.http.server.HttpRequestEvent.createHttpRequestEvent;
 
-class DelimitedRequestLog
+public class DelimitedRequestLog
         implements RequestLog
 {
     private static final Logger log = Logger.get(DelimitedRequestLog.class);

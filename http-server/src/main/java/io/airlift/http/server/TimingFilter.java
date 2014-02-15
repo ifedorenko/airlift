@@ -31,7 +31,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.Locale;
 
-class TimingFilter
+public class TimingFilter
         implements Filter
 {
     public static final String FIRST_BYTE_TIME = TimingFilter.class.getName() + ".FIRST_BYTE_TIME";
